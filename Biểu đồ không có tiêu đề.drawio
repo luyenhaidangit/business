@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2261" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -261,7 +261,7 @@
         </mxCell>
         <UserObject label="CFMAST" tooltip="Loại hình tiểu khoản" id="URuendmNtwKHBHTA27Hg-43">
           <mxCell style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-            <mxGeometry x="200" y="700" width="180" height="182" as="geometry">
+            <mxGeometry x="200" y="700" width="180" height="234" as="geometry">
               <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
             </mxGeometry>
           </mxCell>
@@ -294,6 +294,16 @@
         <UserObject label="CUSTODYCD" tooltip="Số tài khoản lưu ký&#xa;Rule:&#xa;Có thể NULL&#xa;Khi có dữ liệu, thêm, sửa -&gt; Sinh ra tiểu khoản&#xa;Không cho phép sửa khi đã sinh" id="URuendmNtwKHBHTA27Hg-50">
           <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="URuendmNtwKHBHTA27Hg-43" vertex="1">
             <mxGeometry y="156" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CUSTODYCD" tooltip="Số tài khoản lưu ký&#xa;Rule:&#xa;Có thể NULL&#xa;Khi có dữ liệu, thêm, sửa -&gt; Sinh ra tiểu khoản&#xa;Không cho phép sửa khi đã sinh" id="0P2byF1IKs32apavVRVw-6">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="URuendmNtwKHBHTA27Hg-43">
+            <mxGeometry y="182" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CUSTODYCD" tooltip="Số tài khoản lưu ký&#xa;Rule:&#xa;Có thể NULL&#xa;Khi có dữ liệu, thêm, sửa -&gt; Sinh ra tiểu khoản&#xa;Không cho phép sửa khi đã sinh" id="0P2byF1IKs32apavVRVw-7">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="URuendmNtwKHBHTA27Hg-43">
+            <mxGeometry y="208" width="180" height="26" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="URuendmNtwKHBHTA27Hg-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="URuendmNtwKHBHTA27Hg-51" edge="1">
@@ -373,55 +383,405 @@
           </mxCell>
         </UserObject>
         <UserObject label="AFMAST" tooltip="Loại hình tiểu khoản" id="qsblZAF3k721p9KFFX40-0">
-          <mxCell style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxCell style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
             <mxGeometry x="580" y="700" width="180" height="182" as="geometry">
               <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
             </mxGeometry>
           </mxCell>
         </UserObject>
         <UserObject label="ACCTNO" tooltip="Mã loại hình - Key" id="qsblZAF3k721p9KFFX40-1">
-          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="qsblZAF3k721p9KFFX40-0">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" parent="qsblZAF3k721p9KFFX40-0" vertex="1">
             <mxGeometry y="26" width="180" height="26" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="CUSTID" tooltip="Tên loại hình" id="qsblZAF3k721p9KFFX40-2">
-          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="qsblZAF3k721p9KFFX40-0">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="qsblZAF3k721p9KFFX40-0" vertex="1">
             <mxGeometry y="52" width="180" height="26" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="CUSTTYPE" tooltip="Loại khách hàng:&#xa;I: Cá nhân&#xa;B: Tổ chức" id="qsblZAF3k721p9KFFX40-3">
-          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="qsblZAF3k721p9KFFX40-0">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="qsblZAF3k721p9KFFX40-0" vertex="1">
             <mxGeometry y="78" width="180" height="26" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="IDTYPE" tooltip="Loại giấy tờ:&#xa;001 - CMND/Căn cước&#xa;010 - Khác&#xa;009 - Trading code&#xa;005 - Giấy phép KD&#xa;" id="qsblZAF3k721p9KFFX40-4">
-          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="qsblZAF3k721p9KFFX40-0">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="qsblZAF3k721p9KFFX40-0" vertex="1">
             <mxGeometry y="104" width="180" height="26" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="IDCODE" tooltip="Mã giấy tờ&#xa;Rule:&#xa;Xác định người dùng theo CMND = IDTYPE + IDTYPE + IDCODE" id="qsblZAF3k721p9KFFX40-5">
-          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="qsblZAF3k721p9KFFX40-0">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="qsblZAF3k721p9KFFX40-0" vertex="1">
             <mxGeometry y="130" width="180" height="26" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="CUSTODYCD" tooltip="Số tài khoản lưu ký&#xa;Rule:&#xa;Có thể NULL" id="qsblZAF3k721p9KFFX40-6">
-          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="qsblZAF3k721p9KFFX40-0">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="qsblZAF3k721p9KFFX40-0" vertex="1">
             <mxGeometry y="156" width="180" height="26" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="qsblZAF3k721p9KFFX40-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qsblZAF3k721p9KFFX40-2" target="URuendmNtwKHBHTA27Hg-44">
+        <mxCell id="qsblZAF3k721p9KFFX40-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qsblZAF3k721p9KFFX40-2" target="URuendmNtwKHBHTA27Hg-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qsblZAF3k721p9KFFX40-8" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qsblZAF3k721p9KFFX40-7">
+        <mxCell id="qsblZAF3k721p9KFFX40-8" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qsblZAF3k721p9KFFX40-7" vertex="1" connectable="0">
           <mxGeometry x="0.6104" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qsblZAF3k721p9KFFX40-9" value="0...*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qsblZAF3k721p9KFFX40-7">
+        <mxCell id="qsblZAF3k721p9KFFX40-9" value="0...*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qsblZAF3k721p9KFFX40-7" vertex="1" connectable="0">
           <mxGeometry x="-0.7013" y="2" relative="1" as="geometry">
             <mxPoint y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DAbMA-0a2AeeiQxAaiU4" name="Margin Pool 3">
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="P3CREATECONTRACT" tooltip="Loại hình tiểu khoản" id="9JvXsots_n8mzfDcT8rw-1">
+          <mxCell style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="120" y="180" width="180" height="468" as="geometry">
+              <mxRectangle x="120" y="240" width="160" height="26" as="alternateBounds" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="REQUESTID" tooltip="RequestId - Duy nhất trong ngày làm việc hệ thống" id="9JvXsots_n8mzfDcT8rw-2">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="9JvXsots_n8mzfDcT8rw-1">
+            <mxGeometry y="26" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="TXDATE" tooltip="Ngày làm việc hệ thống" id="9JvXsots_n8mzfDcT8rw-3">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="9JvXsots_n8mzfDcT8rw-1">
+            <mxGeometry y="52" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CLIENTNO" tooltip="Mã khách hàng VIB&#xa;- Có thể nhiều bản ghi tại bảng này&#xa;- ST1 thêm&#xa;- ST1N thêm&#xa;- ST2 thêm" id="9JvXsots_n8mzfDcT8rw-4">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="9JvXsots_n8mzfDcT8rw-1">
+            <mxGeometry y="78" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="ODTACCOUNT" tooltip="Số tài khoản thấu chi&#xa;- Có thể nhiều bản ghi tại bảng này&#xa;- ST1 thêm&#xa;- ST1N thêm&#xa;- ST2 thêm" id="9JvXsots_n8mzfDcT8rw-5">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="9JvXsots_n8mzfDcT8rw-1">
+            <mxGeometry y="104" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="GLOBALIDIFO" tooltip="Mã giấy tờ của khách hàng&#xa;Rule:&#xa;Xác định người dùng theo CMND = IDTYPE + IDTYPE + IDCODE&#xa;----------------&#xa;CF.CUSTTYPE = &#39;I&#39; AND CF.IDTYPE = &#39;001&#39;" id="9JvXsots_n8mzfDcT8rw-6">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="9JvXsots_n8mzfDcT8rw-1">
+            <mxGeometry y="130" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="GLOBALIDIFO2" tooltip="Số GTTT khách hàng" id="S5aOMI0_wHjdxtUFzDce-1">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="9JvXsots_n8mzfDcT8rw-1">
+            <mxGeometry y="156" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CURRENCY" tooltip="Đơn vị tiền&#xa;Mặc định: VND" id="S5aOMI0_wHjdxtUFzDce-2">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="9JvXsots_n8mzfDcT8rw-1">
+            <mxGeometry y="182" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="ODLIMIT" tooltip="Hạn mức thấu chi" id="S5aOMI0_wHjdxtUFzDce-3">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="9JvXsots_n8mzfDcT8rw-1">
+            <mxGeometry y="208" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="STARTDATE" tooltip="Ngày bắt đầu" id="S5aOMI0_wHjdxtUFzDce-4">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="9JvXsots_n8mzfDcT8rw-1">
+            <mxGeometry y="234" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="EXPDATE" tooltip="Ngày kết thúc" id="S5aOMI0_wHjdxtUFzDce-5">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="9JvXsots_n8mzfDcT8rw-1">
+            <mxGeometry y="260" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="REPAYACCT" tooltip="Tài khoản trả lãi thấu chi" id="S5aOMI0_wHjdxtUFzDce-6">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="9JvXsots_n8mzfDcT8rw-1">
+            <mxGeometry y="286" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CREDITNO" tooltip="Mã giấy tờ&#xa;Rule:&#xa;Xác định người dùng theo CMND = IDTYPE + IDTYPE + IDCODE" id="S5aOMI0_wHjdxtUFzDce-7">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="9JvXsots_n8mzfDcT8rw-1">
+            <mxGeometry y="312" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CUSTID" tooltip="Mã giấy tờ&#xa;Rule:&#xa;Xác định người dùng theo CMND = IDTYPE + IDTYPE + IDCODE" id="S5aOMI0_wHjdxtUFzDce-8">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="9JvXsots_n8mzfDcT8rw-1">
+            <mxGeometry y="338" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CONTRACTFILENAME" tooltip="Mã giấy tờ&#xa;Rule:&#xa;Xác định người dùng theo CMND = IDTYPE + IDTYPE + IDCODE" id="S5aOMI0_wHjdxtUFzDce-9">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="9JvXsots_n8mzfDcT8rw-1">
+            <mxGeometry y="364" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="STATUS" tooltip="Mã giấy tờ&#xa;Rule:&#xa;Xác định người dùng theo CMND = IDTYPE + IDTYPE + IDCODE" id="S5aOMI0_wHjdxtUFzDce-10">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="9JvXsots_n8mzfDcT8rw-1">
+            <mxGeometry y="390" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CREATEDATE" tooltip="Mã giấy tờ&#xa;Rule:&#xa;Xác định người dùng theo CMND = IDTYPE + IDTYPE + IDCODE" id="S5aOMI0_wHjdxtUFzDce-12">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="9JvXsots_n8mzfDcT8rw-1">
+            <mxGeometry y="416" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="ACTIONTYPE" tooltip="Mã giấy tờ&#xa;Rule:&#xa;Xác định người dùng theo CMND = IDTYPE + IDTYPE + IDCODE" id="S5aOMI0_wHjdxtUFzDce-16">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="9JvXsots_n8mzfDcT8rw-1">
+            <mxGeometry y="442" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CFMAST" tooltip="Loại hình tiểu khoản" id="S5aOMI0_wHjdxtUFzDce-17">
+          <mxCell style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="510" y="180" width="180" height="110" as="geometry">
+              <mxRectangle x="120" y="240" width="160" height="26" as="alternateBounds" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="CUSTID" tooltip="RequestId - Duy nhất trong ngày làm việc hệ thống" id="S5aOMI0_wHjdxtUFzDce-18">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="S5aOMI0_wHjdxtUFzDce-17">
+            <mxGeometry y="26" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="IDCODE" tooltip="RequestId - Duy nhất trong ngày làm việc hệ thống" id="S5aOMI0_wHjdxtUFzDce-36">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;" vertex="1" parent="S5aOMI0_wHjdxtUFzDce-17">
+            <mxGeometry y="52" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="STATUS" tooltip="RequestId - Duy nhất trong ngày làm việc hệ thống" id="S5aOMI0_wHjdxtUFzDce-37">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;" vertex="1" parent="S5aOMI0_wHjdxtUFzDce-17">
+            <mxGeometry y="78" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="P3AFCONTRACTMAP" tooltip="Loại hình tiểu khoản" id="hGvjTtIvTIYRCr7iLVnI-3">
+          <mxCell style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="850" y="390" width="180" height="340" as="geometry">
+              <mxRectangle x="120" y="240" width="160" height="26" as="alternateBounds" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="CLIENTNO" tooltip="RequestId - Duy nhất trong ngày làm việc hệ thống" id="hGvjTtIvTIYRCr7iLVnI-4">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-3">
+            <mxGeometry y="26" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="AFACCTNO" tooltip="Ngày làm việc hệ thống" id="hGvjTtIvTIYRCr7iLVnI-5">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontStyle=1;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-3">
+            <mxGeometry y="52" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CONTRACTFILENAME" tooltip="Mã khách hàng VIB&#xa;- Có thể nhiều bản ghi tại bảng này&#xa;- ST1 thêm&#xa;- ST1N thêm&#xa;- ST2 thêm" id="hGvjTtIvTIYRCr7iLVnI-6">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-3">
+            <mxGeometry y="78" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="ODLIMIT" tooltip="Số tài khoản thấu chi&#xa;- Có thể nhiều bản ghi tại bảng này&#xa;- ST1 thêm&#xa;- ST1N thêm&#xa;- ST2 thêm" id="hGvjTtIvTIYRCr7iLVnI-7">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-3">
+            <mxGeometry y="104" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="STARTDATE" tooltip="Mã giấy tờ của khách hàng&#xa;Rule:&#xa;Xác định người dùng theo CMND = IDTYPE + IDTYPE + IDCODE&#xa;----------------&#xa;CF.CUSTTYPE = &#39;I&#39; AND CF.IDTYPE = &#39;001&#39;" id="hGvjTtIvTIYRCr7iLVnI-8">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-3">
+            <mxGeometry y="130" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="EXPDATE" tooltip="Số GTTT khách hàng" id="hGvjTtIvTIYRCr7iLVnI-9">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-3">
+            <mxGeometry y="156" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CUSTID" tooltip="Đơn vị tiền&#xa;Mặc định: VND" id="hGvjTtIvTIYRCr7iLVnI-10">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-3">
+            <mxGeometry y="182" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="STATUS" tooltip="Hạn mức thấu chi" id="hGvjTtIvTIYRCr7iLVnI-11">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-3">
+            <mxGeometry y="208" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CREATEDDATE" tooltip="Ngày bắt đầu" id="hGvjTtIvTIYRCr7iLVnI-12">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-3">
+            <mxGeometry y="234" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="LASTCHANGE" tooltip="Ngày kết thúc" id="hGvjTtIvTIYRCr7iLVnI-13">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-3">
+            <mxGeometry y="260" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="ODACCOUNT" tooltip="Tài khoản trả lãi thấu chi" id="hGvjTtIvTIYRCr7iLVnI-14">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-3">
+            <mxGeometry y="286" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CREDITNO" tooltip="Mã giấy tờ&#xa;Rule:&#xa;Xác định người dùng theo CMND = IDTYPE + IDTYPE + IDCODE" id="hGvjTtIvTIYRCr7iLVnI-15">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-3">
+            <mxGeometry y="312" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="hGvjTtIvTIYRCr7iLVnI-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="S5aOMI0_wHjdxtUFzDce-8" target="S5aOMI0_wHjdxtUFzDce-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="531" />
+              <mxPoint x="460" y="219" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hGvjTtIvTIYRCr7iLVnI-23" value="1...*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hGvjTtIvTIYRCr7iLVnI-22">
+          <mxGeometry x="-0.8927" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hGvjTtIvTIYRCr7iLVnI-24" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hGvjTtIvTIYRCr7iLVnI-22">
+          <mxGeometry x="0.908" y="-1" relative="1" as="geometry">
+            <mxPoint x="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="AFMAST" tooltip="Loại hình tiểu khoản" id="hGvjTtIvTIYRCr7iLVnI-27">
+          <mxCell style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="850" y="180" width="180" height="110" as="geometry">
+              <mxRectangle x="120" y="240" width="160" height="26" as="alternateBounds" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="ACCTNO" tooltip="RequestId - Duy nhất trong ngày làm việc hệ thống" id="hGvjTtIvTIYRCr7iLVnI-28">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-27">
+            <mxGeometry y="26" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CUSTID" tooltip="RequestId - Duy nhất trong ngày làm việc hệ thống" id="hGvjTtIvTIYRCr7iLVnI-29">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-27">
+            <mxGeometry y="52" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="STATUS" tooltip="RequestId - Duy nhất trong ngày làm việc hệ thống" id="hGvjTtIvTIYRCr7iLVnI-30">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-27">
+            <mxGeometry y="78" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="hGvjTtIvTIYRCr7iLVnI-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hGvjTtIvTIYRCr7iLVnI-29" target="S5aOMI0_wHjdxtUFzDce-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hGvjTtIvTIYRCr7iLVnI-32" value="0...N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hGvjTtIvTIYRCr7iLVnI-31">
+          <mxGeometry x="-0.7097" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hGvjTtIvTIYRCr7iLVnI-33" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hGvjTtIvTIYRCr7iLVnI-31">
+          <mxGeometry x="0.6667" relative="1" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hGvjTtIvTIYRCr7iLVnI-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hGvjTtIvTIYRCr7iLVnI-28" target="hGvjTtIvTIYRCr7iLVnI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hGvjTtIvTIYRCr7iLVnI-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.011;entryY=0.923;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hGvjTtIvTIYRCr7iLVnI-10" target="S5aOMI0_wHjdxtUFzDce-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hGvjTtIvTIYRCr7iLVnI-39" value="1...*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hGvjTtIvTIYRCr7iLVnI-38">
+          <mxGeometry x="0.8477" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hGvjTtIvTIYRCr7iLVnI-40" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hGvjTtIvTIYRCr7iLVnI-38">
+          <mxGeometry x="-0.8376" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="P3CONTRACTDETAIL" tooltip="Loại hình tiểu khoản" id="hGvjTtIvTIYRCr7iLVnI-41">
+          <mxCell style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+            <mxGeometry x="120" y="760" width="180" height="468" as="geometry">
+              <mxRectangle x="120" y="240" width="160" height="26" as="alternateBounds" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="REQUESTID" tooltip="RequestId - Duy nhất trong ngày làm việc hệ thống" id="hGvjTtIvTIYRCr7iLVnI-42">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-41">
+            <mxGeometry y="26" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="TXDATE" tooltip="Ngày làm việc hệ thống" id="hGvjTtIvTIYRCr7iLVnI-43">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-41">
+            <mxGeometry y="52" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CLIENTNO" tooltip="Mã khách hàng VIB&#xa;- Có thể nhiều bản ghi tại bảng này&#xa;- ST1 thêm&#xa;- ST1N thêm&#xa;- ST2 thêm" id="hGvjTtIvTIYRCr7iLVnI-44">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-41">
+            <mxGeometry y="78" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="ODTACCOUNT" tooltip="Số tài khoản thấu chi&#xa;- Có thể nhiều bản ghi tại bảng này&#xa;- ST1 thêm&#xa;- ST1N thêm&#xa;- ST2 thêm" id="hGvjTtIvTIYRCr7iLVnI-45">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-41">
+            <mxGeometry y="104" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="GLOBALIDIFO" tooltip="Mã giấy tờ của khách hàng&#xa;Rule:&#xa;Xác định người dùng theo CMND = IDTYPE + IDTYPE + IDCODE&#xa;----------------&#xa;CF.CUSTTYPE = &#39;I&#39; AND CF.IDTYPE = &#39;001&#39;" id="hGvjTtIvTIYRCr7iLVnI-46">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-41">
+            <mxGeometry y="130" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="GLOBALIDIFO2" tooltip="Số GTTT khách hàng" id="hGvjTtIvTIYRCr7iLVnI-47">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-41">
+            <mxGeometry y="156" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CURRENCY" tooltip="Đơn vị tiền&#xa;Mặc định: VND" id="hGvjTtIvTIYRCr7iLVnI-48">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-41">
+            <mxGeometry y="182" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="ODLIMIT" tooltip="Hạn mức thấu chi" id="hGvjTtIvTIYRCr7iLVnI-49">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-41">
+            <mxGeometry y="208" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="STARTDATE" tooltip="Ngày bắt đầu" id="hGvjTtIvTIYRCr7iLVnI-50">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-41">
+            <mxGeometry y="234" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="EXPDATE" tooltip="Ngày kết thúc" id="hGvjTtIvTIYRCr7iLVnI-51">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-41">
+            <mxGeometry y="260" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="REPAYACCT" tooltip="Tài khoản trả lãi thấu chi" id="hGvjTtIvTIYRCr7iLVnI-52">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-41">
+            <mxGeometry y="286" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CREDITNO" tooltip="Mã giấy tờ&#xa;Rule:&#xa;Xác định người dùng theo CMND = IDTYPE + IDTYPE + IDCODE" id="hGvjTtIvTIYRCr7iLVnI-53">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-41">
+            <mxGeometry y="312" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CUSTID" tooltip="Mã giấy tờ&#xa;Rule:&#xa;Xác định người dùng theo CMND = IDTYPE + IDTYPE + IDCODE" id="hGvjTtIvTIYRCr7iLVnI-54">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-41">
+            <mxGeometry y="338" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CONTRACTFILENAME" tooltip="Mã giấy tờ&#xa;Rule:&#xa;Xác định người dùng theo CMND = IDTYPE + IDTYPE + IDCODE" id="hGvjTtIvTIYRCr7iLVnI-55">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-41">
+            <mxGeometry y="364" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="STATUS" tooltip="Mã giấy tờ&#xa;Rule:&#xa;Xác định người dùng theo CMND = IDTYPE + IDTYPE + IDCODE" id="hGvjTtIvTIYRCr7iLVnI-56">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-41">
+            <mxGeometry y="390" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CREATEDATE" tooltip="Mã giấy tờ&#xa;Rule:&#xa;Xác định người dùng theo CMND = IDTYPE + IDTYPE + IDCODE" id="hGvjTtIvTIYRCr7iLVnI-57">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-41">
+            <mxGeometry y="416" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="ACTIONTYPE" tooltip="Mã giấy tờ&#xa;Rule:&#xa;Xác định người dùng theo CMND = IDTYPE + IDTYPE + IDCODE" id="hGvjTtIvTIYRCr7iLVnI-58">
+          <mxCell style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="hGvjTtIvTIYRCr7iLVnI-41">
+            <mxGeometry y="442" width="180" height="26" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
