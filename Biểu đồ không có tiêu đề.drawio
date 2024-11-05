@@ -782,6 +782,14 @@
             <mxGeometry y="442" width="180" height="26" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="hGvjTtIvTIYRCr7iLVnI-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9JvXsots_n8mzfDcT8rw-4" target="hGvjTtIvTIYRCr7iLVnI-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hGvjTtIvTIYRCr7iLVnI-60" value="ST1&lt;br&gt;ST1N&lt;div&gt;ST2&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hGvjTtIvTIYRCr7iLVnI-59">
+          <mxGeometry x="0.0742" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
